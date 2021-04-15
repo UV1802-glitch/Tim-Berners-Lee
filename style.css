@@ -78,27 +78,29 @@ p {
 
 .menu {
     font-family: 'New Tegomin', serif;
-    position: absolute;
+    position: fixed;
     list-style: none;
-    top: 10px;
-    right: 20px;
+    top: 0px;
     cursor: pointer;
     z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+    background-color: ghostwhite;
 }
 
 .lists {
-    float: left;
+    display: inline;
     font-family: 'New Tegomin', serif;
     font-size: 20px;
     color: darkslategray;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 33px;
+    padding-right: 25px;
 }
 
 .lists:hover {
-    background-color: darkgrey;
+    background-color: dodgerblue;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 a {
@@ -110,7 +112,11 @@ html {
     scroll-behavior: smooth;
 }
 
-.write1:hover
-{
-  background-color: chartreuse;  
+.write1:hover {
+    background-color: chartreuse;
+}
+
+.contact_div {
+    background-color: dodgerblue;
+    color: white;
 }
